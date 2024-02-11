@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="stylesheet" href="style.css">
+    </head>
+         <body>
+             <article>
+                <center><b>Chapter X
+                <h1>The Nature Of Strategic-DecisionMaking Models<br>
+<br>Decision with Multiple Criteria and Multiple Scenarios<hr width="100%" color="#050400" size="5"/></h1></b>
+<p>
+We will now study more complex problems considering:
+    <br>
+<i>Multiple criteria or goals:</i>
+<li type="disc">considering earnings or costs, delays,  client satisfaction, etc,  and </li>
+    <br>
+<i>Multiple scenarios:</i>
+<li type="disc">where each scenario has a different risk level.</li>
+    <br>
+In the multiple goal function problems, there is no optimum solution fully satisfying all goals at the same time. The individual goal’s functions are, in general, conflicting and it is not possible to have an optimization method to solve the problem. There is usually aconsensus solution satisfying minimal criteria of optimum values for each individual goal function. This consensus is based on the Pareto’s principle presented in chapter nine. The optimal decision making in problems with multiple goals will be analyzed at the end of this chapter (Goicoechea et al., 1982; Keeney & Raiffa, 1976; Dyson, 1990; Saaty, 1980, 1994; Bonabeau, 2003; Charan, 2001; Choo, 1998; Day et al., 1997).</p>
+    <br>
+<p>
+In considering restrictions across several scenarios, the problem solution becomes more difficult due to the high number of possible combinations of goal functions and scenarios to be considered. Using classical mathematical programming notation, the optimization problem withk goals andw scenarios could be formulated as follows:
+    <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20082750.png"></div>
+    <br>
+An efficient algorithm for this kind of problem has not yet been presented, unless using some kind of heuristic techniques. It should be noted that the mathematical programming problem formulated above does not consider the event of uncertainty or risk, which, in this case, would involve stochastic or probabilistic mathematical programming. 
+    <br>
+Thus, the decision-making process is one of the methodologies indicated to resolve these problems, since it does not depend on complex mathematics involving scenario restrictions and multiple goals’ functions (Warfield, 1978, 1994). 
+    <br>
+    <i>Example 10.1. A strategic decision with multiple goals and different scenarios (Presented in Chapter VIII, as Example 8.3. Illustration of a political model of decision.)</i>
+    <br>
+A company must choose one of the following strategies to develop a large project. 
+    <br>
+<i>Strategy or scenario A1:</i>
+Develop the project entirely in the company, with:
+                <li type="disc"> 20% chance of finishing the project at a cost of $130 (million) and delay of 2 months,</li>
+                <li type="disc">30% chance of finishing the project at a cost of $130 and delay of 3 months, or </li>
+                <li type="disc">50% chance of finishing the project at a cost of $90 delay of 5 months. </li>
+                <i>Strategy or scenario A2:</i>
+            Outsource the project and supervise it with: 
+                <br>
+                <li type="disc">60% chance of finishing the project at a cost of $150 (million) without delay, or</li>
+                    <li type="disc">40% chance of finishing the project at a cost of $80 with a delay of 5 months. </li>
+                    <br>
+                    <i>Strategy or scenario A3:</i>
+                Develop the project in partnership with a multinational company with: 
+                    <br>
+                <li type="disc">20% chance of finishing the project at a cost of $150  (million) without delay,</li> 
+                    <br>
+                <li type="disc">40% chance of finishing the project at a cost of $130 with delay of 1 month, or</li>
+                <br>
+                <li type="disc">40% chance of finishing the project at a cost of $120 with delay of 3 months.</li>
+                
+<h1><b>Decision Tree</b><hr width="100%" color="#050400" size="5"/></h1>
+By placing the problem on a decision tree we have: 
+                <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20082818.png"></div>
+                <br>
+<h1><b>Utility Values</b><hr width="100%" color="#050400" size="5"/></h1>
+<br>
+As shown before, the conversion of any kind of value (quantitative or non quantitative values) into utility values is made, first, by placing each goal value in order. Then, the value with highest preference is given the utility value of one and the value of lowest preference receives the utility value of zero. The utility values for the intermediate values are reached using the utility curve shown on Figure 10.1. Therisk neutral utilitycurve shows the following results:
+                <br>
+<div class="img1" style="width100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20082912.png"></div>
+    <br>
+<h1><b>Joint Utility for the Two Goals: Delay and Cost</b><hr width="100%" color="#050400" size="5"/></h1>
+<br>
+Since there are two goals (or attributes x1 and x2) each value of the utility must be found by combining utilities u(x1) and u(x2) of these goals, using a method known asswing weight(Clemen and Reilly (2001)), given by the formula u (x1, x2) = k1 . u (x1) + k2 . u (x2), where k1 and k2 are weights satisfying the equality k1+k2=1. 
+<br>
+In this method, it is presumed that the utility of the Delay u(x1) is independent from the utility of Cost u(x2) and vice-versa, and that there is no interaction between the two goals in determining the utility value. It can then be said that goals x1 and x2 aremutually independentin regard to utility. If we establish a preference saying that Cost is more important than Delay and that Delay has 70% of the importance of Cost, we would have k1 = 0.7 x k2. Since k1 + k2 = 1, we have k1 = 0.7 x (1- k1), and then k1 = 0.4 and k2 =0.6. 
+    <br>
+These weights address the following conditions:
+    <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20082928.png"></div>
+                <br>
+<i>Figure 10.1. Utility curve for Example 10.1</i>
+                <br>
+<div class="img1" style="width=100pox; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20082947.png"></div>
+                <br>
+By replacing costs and delays values by their respective utility values, and reaching the joint utility values u (x1, x2), we have a new decision tree:
+    <br>
+<div class="img1" style="width=100px; height=100px; background-color=white"><img src="Screenshot%202024-02-09%20083005.png"></div>
+    <br>
+The Expected Utility Values are:<br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083015.png"></div>
+                <br>
+Thus, the company that prefers to be risk neutral will prefer strategy A2. If the company prefers to choose the utility curve with “risk aversion” we may have the following values: EUV1 = 0.541, EUV2 = 0.48 e EUV3 = 0.608,and the best decision for the company with risk aversion is A3, where costs are not the best but there are better delivery possibilities. Using the curve expressing <i>risk preference or risk taker,</i> in Figure 10.1, the company may choose alternative A1.
+                <br>
+<h1><b>Sensitivity Analysis and “What If?” Question </b><hr width="100%" color="#050400" size="5"/></h1>
+<br>
+In example 10.1:
+                <br>
+                <ol type="a">
+<li>the company, preferring to be risk neutral, should choose strategy A2;</li>
+<li>risk averting company would choose strategy A3, where costs are not the best but there are better delivery possibilities; and </li>
+<li>the risk preferring company may choose alternative A1.</li>
+</ol>
+In any decision problem, one should not consider a decision based only on a scenario with fixed values of the parameters involved, since several subjective assessments were used for structuring the decision problem. The decision maker tries to make a decision based on the “best information available” out of the several possible variations involved. Which are these variation alternatives?
+    <br>
+    Adecision support systemshould provide the possibility of answering <i>“What– if”</i>questions, that is, the chance to answer the question
+    <br>
+    <i>“WHAT WOULD HAPPEN to the strategy IF the earnings values, the schedule or the probabilities were different?”</i>
+    <br>
+Considering that strategy A1 — Developing the project inside the company — was the best decision only in the case of risk taker or preference, the company could make the following question. <i>“What – if?
+    <br> 
+    What to do, or in which conditions is strategy A1 the best solution in a risk neutral case?” </i>
+Since the example 10.1 is a complex decision case, involving different values of delays and costs for each scenario, the analysis of the best strategy for each possible combination of the variations of values demands hard work and is not always recommended, since it involves several cases with no practical interest. The sensitivity analysis chart used in the previous example, varying probabilities p1 and p2, and leaving the third probability p3= 1 – p1 – p2 implicit, is also not useful, for the same reasons. 
+    <br>
+The sensibility analysis should then be limited to the variations of parameters (probabilities, costs, or delays) of strategy A1, where the company can alter these values. The two other strategies, including the involvement of other companies and the change in the values of these scenarios, depend on negotiations with them. Even in strategy A1, only one of the three variables should be examined at a time (probability, delay, or cost), leaving the others as they are, to avoid the explosive increase in the number of possible cases.
+                <br>
+For instance, the following cases can be examined:
+                    <br>
+<i>Sensitivity analysis a:</i> Analysis of other probabilities values of strategy A1, leaving the values for Delay and Cost unchanged.
+                    <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083144.png"></div>/
+                    <br>
+The best strategy is now A1 because its EUV or average value is greater than those of other scenarios.
+                    </p>
+                <br>
+                <br>
+<i>Sensitivity analysis b:</i>
+    <br>
+Changing the values of Costs in Strategy A1, leaving unchanged the values of probabilities and delay.
+    <br>
+Altering costs for $120, $120 and $90 with utilities 0.4, 0.4 and 0.9, respectively we have:
+    <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083151.png"></div>
+                <br>
+<i>Sensitivity analysis c:</i><br>
+Changing the values for Delay on strategy A1, leaving unchanged the values for Probabilities and Cost. 
+                <br>
+The delays now are of 1, 3 and 4 months, with new utility values. 
+                <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083202.png"></div>
+                <br>
+The best strategy again, is A1.
+                <br>
+<h1><b>Optimal Decisions </b><hr width="100%" color="#050400" size="5"/></h1>
+<br>               
+In the previous chapters, it was stated that a decision problem cannot be solved just by scientific models and that, in order to define a decision-making model, it is necessary to adopt the<i>“satisfactory model” </i>based on “bounded rationality ” such as the “near conflict resolution” or “minimizing uncertainty”.
+                <br>
+Further, it was stressed that the search for a solution should neither be random nor exhaustive. The search for a solution within the organization should be focused on the main problem goals and the possible alternative solutions should be looked for in the vicinity of these goals.
+                <br>
+However, it is often interesting, or even necessary, to represent and analyze a decision problem from the standpoint of its optimum or optimized solution. In an optimization scenario, criteria or goals may be considered as objectives to be optimized or as part of restricting conditions. In the formulation of Nonlinear Mathematical Programming models, every goal or criterion except one can be described as a restriction, in order to maintain the mathematical formulation of the optimization problem with a single objective (Hillier & Liebermann, 1980; Shamblin & Stevens, 1980). 
+                <br>
+In Linear Programming (LP) both a single function goal z and the m restriction equations should belinear, in order to enable the applications of the method known as SIMPLEX, on a convex region of feasible solutions. If any of these equations isnonlinear, the optimization problem should be solved using the Nonlinear Programming or Dynamic Programming methods, whose resolution is usually very difficult.
+                <br>
+<h1><b>Optimal Multiple Criteria (or Multi-Objective) Decision-Making in Industry</b><hr width="100%" color="#050400" size="5"/></h1>
+<br> 
+In problems with multiple goals it is not possible to establish an optimum solution satisfying every goal or objective. Solutions that address all criteria or goals, called “ideal solutions” usually cannot be found among the feasible solutions of the original problem. The individual goals are usually conflicting, and it is necessary to find a compromise solution based on Pareto’s principle. The pre-established restrictions of the available resources may not enable the search for an “ideal solution” outside the region of feasible solutions. That means that, the ideal solution is unfeasible, as shown in Figure 10.2.
+                <br>
+<ol type="a">
+<li>In the case where existing restrictions or resources are not limited, the restrictions may be extended or “relaxed” until they encompass the ideal solution restrictions. That is what happens with the formulation called “De Novo” programming reported in Tabucanon (1988).</li>
+                </ol>
+                <br>
+<i>Figure 10.2. The “ideal” and “compromise” solutions (adapted from Tabucanon, 1988 (*) and Kinoshita, 1996 (**)</i>  
+                 <br>
+<div class="img1" style="width=100px; height=100px; background-image=white;"><img src="Screenshot%202024-02-09%20083214.png"></div>
+                <br>
+<i>Table 10.1. Technological coefficients of products, availability and machine costs </i>
+                <br>
+<div class="img1" style="width=100px; height=100px; background-image=white;"><img src="Screenshot%202024-02-09%20083223.png"></div>
+                <br>
+<ol type="b">
+<li>If the existing resources do not enable this relaxation, so as to include the ideal solution in the restriction area, it is necessary to find a compromise solution close to the ideal solution, respecting the original restriction area. The formulation used in this case is called “global criterion” or the weighting method used by Kinoshita (1996).</li>
+                </ol>
+ <br>
+The difficulties in solving nonlinear problems occur even when the number of variables is small. If the goal function is not linear, there may be the case of optimization with several maximum and minimum points. In the case that one of restriction equations (or all of them) is nonlinear, the area of feasible solutions may be formed by nonconvex regions, and then optimization problem requires heuristic algorithms. Usually, the optimization problem of great interest to corporations is the optimization of nonlinear problems with multiple goals. 
+                <br>
+The best known methods for multiple criteria optimization problems are:
+                <br>
+                <li type="disc">“Global criterion” method (Kinoshita ,1996),</li>
+                <li type="disc">“De Novo” programming (Tabucanon ,1988), and </li>
+                <li type="disc">Goal programming (Hillier & Liberman, 1980).</li> 
+                <br>
+The first method builds a new goal function by weighting multiple goals functions and preserving the area formed by the restrictions equations. The second method relaxes (altering the restrictions equations) the restriction area so as to hold an optimum solution called “ideal solution.” Goal programming tries to reach a compromise establishing qualitative goals to address the demands of the optimization problems.
+    <br>
+<h1><b>Example 10.2: Optimization Problem with Three Objective  Functions (Tabucanon, 1988)</b><hr width="100%" color="#050400" size="3"/></h1>
+<br> 
+This example considers a machine shop with six machines producing three kinds of products. The time spent to produce each of the three products, the maximum time available and the cost of the use of each machine are shown in Table 10.1. 
+                <br>
+By using the data above one can formulate the following linear optimization with three goals, that is, maximization of the Profit obtained by the sale of the products, Product Quality and Worker Satisfaction. 
+<div clss="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083236.png"></div>
+                <br>
+where x1 , x2 and x3 are the  quantities of Product 1, Product 2 and Product 3 to be produced. 
+    <br>
+By solving the linear programming problem referring to each goal function, the following solutions are given:
+                <br>
+<div clss="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083246.png"></div>
+                <br>
+None of these three solutions maximizes all three goal functions at the same time. Two ways of addressing this problem must now be examined. 
+<h1><b>“De Novo” Programming</b><hr width="100%" color="#050400" size="3"/></h1>
+<br> 
+This method reaches an “ideal solution” outside the area of feasible solutions, enabling the existing restrictions on the initial cost of the machines to be relaxed. Using the “De Novo” programming formulations, the ideal system for the total production cost of $465,875 refers to z* = (z*1 = 10 916.813, z*2 = 18 257.933 , z*3 = 12 174.433). The ideal solution can be reached by solving the following system of three linear equations (see details in Tabucanon (1988))
+    :<br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083257.png"></div>
+                <br>             
+The solution of this system is: x1 = 131.341, x2 = 29.683 and x3 = 78.976.
+                <br>
+Machine availability to reach this ideal solution, which is a nonfeasible solution of the original problem, should be increased to the values presented on the following table: 
+                <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083305.png"></div>
+                <br>
+Note that the total production cost of the ideal system is: 75 x 2080.703 + 60 · 1292.978 + 35· 1184.64 + 50· 2051.662 + 115· 909.028 + 65· 1845.632 = $602,181.20. The new cost, when compared to the initial budget cost of $465,875, refers to an additional cost of $136,306.20.
+<br>
+<h1><b>Global Criterion Method (Kinoshita, 1996)</b><hr width="100%" color="#050400" size="5"/></h1>
+<br>
+Let us suppose that no additional cost, besides the initial $465,875 is permitted. It is possible to distribute this value proportionally to the recommended capabilities and reach a solution that is close to the ideal. The steps of the global criterion method are:
+                <br>
+<i>Step One:</i> 
+                <br>
+The optimum solution for each of the goal functions is:
+                <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083350.png"></div>
+                <br>
+<i>Example 10.3. Selecting the best route in a supply chain problem</i>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083414.png"></div>
+                <br>
+<h1><b>Multi-Criteria or Multi-Objectives Decision Analysis</b><hr width="100%" color="#050400" size="5"/></h1>
+<br>
+In the optimal multi-criteria (or multi-objective) decision problems presented in the last section, both the objective and restriction equations are defined by linear functions, to make possible the use of the Simplex method of Linear Programming. Today’s management systems have become complex and are seldom evaluated in terms of quantitative linear components. Multi-criteria problems arise in the design, modeling, and planning of many complex systems in the areas of industrial production, urban transportation, energy production and distribution, health delivery, etc. These problems can be formulated and optimized using the quantitative approach of linear or nonlinear mathematical programming, but real-life decision problems involve many conflicting goals expressed by quantitative and/or qualitative criteria.
+                <br>
+Possible routes Ri<br>
+                R1 : Company A Highway X1 City C City D Destination Z
+                R2 : Company A Highway X2 City D Destination Z 
+                R3 : Company A Highway X3 City E City F Destination Z 
+                R4 : Company A Highway X4 City G City D Destination Z 
+                R5 : Company A Highway X5 City H City F Destination Z 
+                <br>
+                <br>
+Factors or Criteria Fi<br>
+                F1: time spent on urban traffic between company A and the entrance to the highway; 
+                F2:  average time on the highway; 
+                F3: cost of fuel and tolls; 
+                F4: number of inspections stations, plus average time waiting inspection or weighing; 
+                F5: total average time from company A to town Z; F6: highway’s comfort and safety level;
+            <br>
+Information collected based on the average of the last six months are:
+                <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083423.png"></div>
+                <br>
+We briefly describe the use of AHP (Analytic Hierarchy Process) to solve this problem. Other multi-objective decision methods, such as ELECTRE I and ELECTRE II, described by Goicoechea et al. (1982) and by Roy (1968), can solve this problem using a different approach. 
+                <br>
+<h1><b>The AHP Method </b><hr width="100%" color="#050400" size="5"/></h1>
+<br>
+                <br>
+AHP is a method for choosing the best decision alternative considering multiple criteria and goals expressed by qualitative or quantitative values. This method created by Saaty (1980) has been used for the decision problem to establish: priority definition, cost and profits assessment, resource deployment, benchmarking, market survey, strategic decisions, conflict negotiation and resolution, social or political decisions, and forecasts. 
+                <br>
+The AHP is based on parity matrixes to express subjective assessment values attributed to variable pairs of each factor or criterion involved in the problem. AHP is a single-step decision process, which does not consider risk or uncertainty. 
+                <br>
+Since manual calculation is difficult for decision problems with a large number of factors or alternatives (usually more than five criteria and five alternatives), an AHP software known as EXPERT CHOICE should be used. The description of AHP presented in this section is based on an alternative approximation method for calculation of the eigenvector to determine the relative priority vector, described by Cook and Russel (1993). 
+<br>
+We do not present the entire sequence of numerical procedure for this problem, because of the subjective nature involved to define each one of the pairwise preference matrixes, and also because there is the need to reevaluate these<br>
+<i>Figure 10.3. Decision hierarchy of route selection problem</i>
+                <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083440.png"></div>
+                <br>
+ <i>Table 10.1. AHP pairwise comparison scale (Saaty, 1980)</i>
+                <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083451.png"></div>
+                <br>
+matrixes according to the value of an index called aconsistency ratio. Instead, we present comments on some problems presented by the AHP method. The AHP consists of the following four basic steps:
+    <br>
+<ol>
+<li> Develop the decision hierarchy of levels of decisions elements. </li>
+<li>Collect preference data for each decision element by performing pairwise comparisons.</li>
+<li>Determine the relative priority or weight of each decision element using the eigen-value method or alternative approximation method.</li>
+<li>Aggregate the relative priorities of the final decision alternatives relative to the overall goal.</li>
+</ol>
+                <br>
+<b>Step 1.</b> Decision hierarchy of the route Example 10.3 is shown in Figure 10.3. 
+<b>Step 2.</b> Determining preferences by pairwise comparisons.
+                <br>
+                <br>
+The AHP uses a scale from 1 to 9 to rate the decision maker’s preference for each pair of criteria in the hierarchy. Table 10.1 shows the pairwise comparison scale.
+<br>
+<h1><b><i>The Pairwise Comparison Matrix</i></b><hr width="100%" color="#050400" size="3"/></h1>
+<br>
+                <br>
+ The matrix FF below summarizes one of the decision maker’s preferences for the six criteria relative to getting the best route. For instance, criterion F2 is strongly preferred to criterion F1 and therefore creates a 5 in the F2 row relative to the F1 column. This pairwise comparison also creates a 1/5 in the F1 row relative to the F2 column. Criterion F2 is equally preferred to F3, creating 1 in the F2 row relative to F3 column and vice-versa. 
+                <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083459.png"></div>
+                <br>
+Next, a pairwise comparison matrix for the criterion F1, relative to each route Ri is defined using the same comparison scale: 
+    <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083512.png"></div>
+                <br>
+This matrix shows that, concerning criterion F1 (time spent on urban traffic), route R5 isstrongly preferred to all others routes, creating values of 5 in the row relative to R5. 
+                <br>
+The other five pairwise comparison matrices should be defined for each one of the remaining criteria F2, F3, ...., F6.
+                <br>
+<b>Step 3.</b> Using the eigen-value method of the software EXPERT CHOICE or the alternative approximation method described by Cook and Russel (1993), it is possible to determine the relative priority or weight of each decision element. 
+                <br>
+For instance, considering the pairwise matrix FF, we divide each matrix entry by its column total to normalize these values. Then we calculate the arithmetic mean of each row. These arithmetic means are estimates of the relative priorities (eigenvalues) of the six factors Fi, as shown in the following:
+                <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083518.png"></div>
+                <br>
+These relative priorities indicate that the decision maker places most emphasis on criterion F5 (priority = 0.367) fallowed by priority F2 (priority 0.235).
+                <br>
+We must repeat this procedure for the six pairwise comparison matrix of each criterion Firelative to the routes Ri, to follow to step 4. 
+                <br>
+<b>Step 4.</b> Aggregating the relative priorities of the final decision alternatives relative to the overall goal. 
+                <br><br>
+For instance, the final decision priority value could be:<br>
+Route 1 = 0.193, Route 2 = 0.188, Route 3 = 0.155. Route 4 = 0.230, and Route 5 = 0.234; , which indicates that  route number 5 and number 4 are the best alternatives. 
+                <br>
+<br>
+The quality of the final decision is dependent upon the consistency of the judgement throughout the pairwise comparison process. A measure of consistency calledconsistency ratio is used to determine the decision-maker consistency after the development of each pairwise comparison matrix. If the consistency ratio is large, the decision maker should revise the pairwise comparison matrix. The decision maker can also revise the subjective judgment giving more preference to one of the criteria or one of the objectives. 
+                <br>
+This revisions procedure may introduce changes in the final priority. For instance, for a different pairwise comparison values, the priority could be: Route 1 = 0.182, Route 2 = 0.108,  Route 3 = 0.171. Route 4 = 0.369, and Route 5 = 0.170. According to the new decision preference, route number 4 becomes the preferred alternative.
+                <br>
+AHP is one of the most used methods for making decisions with multiple criteria involving complexity and subjectivity. One of the difficulties pointed out for the AHP is the amount of required parity comparisons, which increase rapidly with the number of criteria depending on the complexity of the decision tree. The reversal effect of the priority order, which occurs when the dominant alternatives are altered due to the inclusion or exclusion of irrelevant alternatives, is another problem pointed to by AHP critics (Harker, 1987). The order reversal effect is attributed by researchers as a “side effect” of the calculus used to normalize the priority vector. In response to this problem, Saaty (1977 & 1980) created the “ideal mode” calculation, indicated for the case when only the best alternative is desired. 
+                <br>
+The ANP —<i>Analytic Network Process </i>(Saaty, 2001) is a generalization of AHP where one of the axioms (independency of the factors) may be relaxed. While AHP hierarchic structure has a concept of dominance of one level over another, in ANP there may be closed cycles where there is a net structure that can give a new dimension and view for structuring complex problems. 
+    <br>
+<h1><b>Decision Based on Fuzzy Possibility Theory </b><hr width="100%" color="#050400" size="5"/></h1>
+<br><br>
+In decision problems involving uncertainty or risk, classical probability theory (also known as Bayesian probability) defines probabilities pi (pi >=0 andSpi = 1) in such a way that, if the probability P(A) of a subset AÌ S is known, the probability of the complementary sub set Ac , is  defined by P(Ac) = 1 – P(A), meaning that the decision maker must know the value of this probability. As in a practical problem with uncertainty or risk this fact is seldom possible, authors (Shafer, 1978; Terano et al., 1984) recommend the use of fuzzy possibility theory, in which this restriction may be relaxed.
+    <br>
+Let S= { sj } be a finite set of criteria formed by  subsets Ai (i = 1,2,...) defined by probabilities m(Ai), known asbasic probabilities of Ai, such that  0 < m(Ai) < 1, m(j) = 0 andS m(Ai) = 1 , (for all AiÌS and  i = 1, 2, ...).<br>
+Following definitions occurs:
+    <br>
+    <ol type="a">
+<li>Lower Probability or Belief Function (Bel):</li>
+        <br>
+ P* (Ai) =S m(Aj)  , (for  Aj˝ Ai), is the sum of all basic probabilities of subsets of Ai,   and
+        <br>
+<li>Upper Probability or Plausibility Function (Pel):</li>
+        <br>
+ P* (Ai) = 1 – P* (Aic) = 1 -S m(Ajc) , (for  Ajc˝ Ai), is the sum of basic probabilities of subsets Aj containing or related to set Ai, i.é, Aj˙ Ai„j. 
+                </ol><br>
+In decision problems defined by k criteriasj of S, n alternatives of decisions rl and basic probabilities m (Ai) (for all Ai˝S ={ sj }), using the utility values  u(rl , sj) , for each alternativerl and criterion sj,  it is possible to define two expected values with respect to Bel and Pel probabilities.
+                <br>
+If sj (j= 1,2,...,k) are ordered according to the importance given by  the decision maker, we can consider weights  wj such that (wo = 0) < w1 < w2 < ...< (wk = 1) and define subsets Aq = { sj / wj ³ wq }, q= 1,2,...,k, such that m(sq ) = wq– wq-1 . Then, 
+                <br>
+<p>
+Lower Expected Value E* of alternative rl (l = 1,2,..., n)<br>
+    E*[ rl ] =å min (Aj)) x m(sj) , and
+    <br>
+Upper Expected Value E* of alternative rl (l = 1,2,…, n)
+    <br>
+    E*[ rl ] =å max (Aj) x  m(sj)
+    <br>
+    <br>
+<h1><b><iExample 10.4: Selection of Used Car ></i></b><hr width="100%" color="#050400" size="3"/></h1>
+<br>
+    <br>
+    <br>
+(Presented in Chapter VIII as Example 8.4 to illustrate an ambiguous model of decision).
+    <br>
+According to the description presented in Chapter VIII, we have the following five criteria, placed in ascending order of their importance. 
+                <br>
+                <br>
+OI ={ s1 = year of fabrication, s2 = exterior aspects, s3 = interior aspects, s4 = mileage , s5 = price }, 
+                <br>
+and a list of preference weight m(sj) or mj for each criterion
+                <br>
+P1 = { m1 = 0.075, m2 = 0.139, m3 = 0.026, m4 = 0.460, m5 = 0.294 }. <br>
+The criterion s5 is the “most important” because when states or criteria sj (j= 1,2,...,k) are ordered defining subsets Aq = { sj / wj‡ wq }, q= 1,2,...,k, the last criterion s5 appears in every subset Aq, in order to evaluate the values of lower and upper expected values. The criterion s4 is the “most preferred” because the preference decision maker has resulted in the highest value of basic probability m4 = 0.460.
+                <br>
+The values of utility function u (rl, sj), for l = 1, 2, ..., 6 used cars and sj = 1,2,...,5 criteria are  presented in Table 10.2.
+                <br>
+We can note that, with the exception of car number X768, every car presents at least one positive aspect (i.e., preference value is equal to or greater than 0.7) showing that we have not the occurrence of dominance factor to eliminate some of these cars.
+                <br>
+For instance, for car M718 we have, we can define the subsets:
+                <br>
+A1 = { s1, s2, s3, , s4, s5 } = { 0.4, 0.3, 0.4, 0.6, 0.8} with min (A1) = 0.3 and max (A1)= 0.8;
+                <br>
+<i>Table 10.2. Utility values for six used cars (adapted from Terano et al., 1984)</i>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083527.png"></div>
+                <br>
+A2 = { s2, s3, , s4, s5 } = { 0.3, 0.4, 0.6, 0.8 } with min (A2) = 03 and max (A2) = 0.8;
+                <br>
+A3 = { s3, , s4, s5 }= { 0.4, 0.6, 0.8} with min (A3) = 0.4 and max (A3) = 0.8;
+                <br>
+A4 = {s4, s5 } = { 0.6, 0.8 } with min (A4) = 0.6 and max(A4) = 0.8; and finally 
+                <br>
+A5 = {s5 }= { 0.8 } with min (A5) = max (A5) = 0.8. 
+                <br>
+                <br>
+The weights are 
+                <br>
+                <br>
+    m(s1 ) = w1– w0 = 0.075; m(s2 ) = w2 – w1 = 0.215 – 0.075 = 0.140; 
+                <br>
+    
+                <br>
+    m(s3 ) = w3 – w2 = 0.240 – 0.215 = 0.0.25; m(s4 ) = w4 – w3 = 0.706– 0.240 = 0.466; and m(s5 ) = w5 – w4 = 1.00 – 0.706 = 0.294, resulting in 
+                <br>
+    w1 =  0.075,  w2  = 0.215, w3 = 0.240, w4  = 0.706, w5 = 1.00 } such that m(sq ) = wq – wq-1 for q = 1,2,..,5 . Then we have 
+                <br>
+    <b>Lower Expected Value E* or Elower</b>
+        E*[ r2 = car  M718 ]=å min (Aj) x m (sj) = 0.3 x 0.075  + 0.3 x 0.140 + 0.4 x0.025  + 0.6 x0.466 + 0.8 x 0.294 = 0.589  , and 
+                <br>
+    <b>Upper Expected Value E* or Eupper</b>
+        E*[ r2 = car M718 ] =å max (Aj)) x  m (sj) = 0.8 x (0.075 + 0.140 + 0.025 + 0.466 + 0.294) = 0.800.
+                <br>
+                <br>
+<i>Table 10.3. Results of evaluation of six cars according to three expected values (adapted from Terano et al., 1984)</i>
+                <br>
+<div class="img1" style="width=100px; height=100px; background-color=white"><img src="Screenshot%202024-02-09%20083548.png"></div>
+                <br>
+                
+Other values of upper, lower expected values and arithmetic mean  Eadd are obtained in a similar way (Table 10.3). 
+                <br>
+<h1><i>Comments</i><hr width="100%" color="#050400" size="3"/></h1>
+<br>
+Car A783 seems to be the best choice, showing two first places and one second place, although it has a score of zero for the “exterior aspects.” However, as this criterion s2 is one of the least important criteria, it could not affect this customer’s selection. 
+                 <br>
+Car M718 presents a balanced situation: it is the best car with respect to negative points (Elower or E* ) and has slightly lower value with respect to the arithmetic mean and positive points (Eupper = E* = 0.800), when compared with car A783. Car A783 has two first places, but it has a zero entry for the criterion s2. That, however, is one of the less important criteria. 
+                <br>
+Car X785 presents more negative points (Elower = 0.457) and less positive points (Eupper =   0.782) than the two cars previously considered. As it would be expected, car X768 presents the worst performance in every aspect of analysis. 
+                <br>
+<h1><b>Case Studies: Strategy and Decisions in Perspective</b><hr width="100%" color="#050400" size="5"/></h1>
+<br>
+<h1><b>Case – The Value of Scenarios</b><hr width="100%" color="#050400" size="5"/></h1>
+<br>
+    (Excerpted from:The <i>Official Future, Self-Delusion
+    </i> and the <i>Value Of Scenarios;</i>Peter Schwartz,<i>Financial Times, </i>Mastering Risk, series,  Part II, May 2, 2000, pp. 6-7). 
+                <br>
+                <i>
+                    “Intelligent people and companies still make some very bad decisions…. IBM and the retail giant Sears Roebuck lost several billion dollars betting on one on-line provider; American banks lost money and more money with the successive crises in Latin American countries during the nineteen eighties; Long Term Capital Management (LTCM) lost billions in 1996 (read more on LTCM in the Case Study of chapter 8), because they did not take important scenarios into account in their mathematical models.”</i>
+    <br>
+    <br>
+In each of the above mentioned cases, the mistake made was not asking themselves the critical question: “what happens if we are wrong — and very wrong?” In other words, they mistakenly assessed the risks inherent to their decisions or did not make the correct scenario planning. 
+    <br>
+There are two very different kinds of scenario planning. The first is exploratory, an attempt to understand the outlines of an unknown scenario — the future — especially in a general interest context. Exploratory planning may find potential unforeseen risks, but is not always relevant to the decision maker. 
+    <br>
+The second kind of planning tries to reach an understanding of risk management. Decision-making scenarios are not created from the abstract. One must know who the decision makers are, since they also make decisions based both on perceptions and facts. 
+    <br>
+    For the<i>scenario planning,</i> it is important that the team developing the range of future alternatives is sure that the <i>“official future” </i>
+    <br>
+is included in the range of alternatives. Only after analyzing this scenario, with a well-made survey, should other possibilities be considered. 
+    <br>
+    How to identify and describe the<i>official future?</i> It is necessary to examine the decision makers’ knowledge, their organizational environment and the market where they act. This test could be condensed into five questions:
+    <br>
+    <li typr="disc" ><b>First question:</b> If it were possible to find a fortune teller, what question would you ask concerning the future?</li><br>
+    <li type="disc"><b>Second question:</b> In reference to a given decision, what would be the scenario for the best possible result? </li><br>
+    <li type="disc"><b>Third question:</b>Which would be the scenario for the worst possible result? </li>f<br>
+    <li type="disc"><b>Fourth question:</b>If you were about to retire or to leave the company, what you like your colleagues to consider your legacy? </li><br>
+    <li type=""><b>Fifth question:</b>Are there important barriers to change in your organization?</li> 
+    <br>
+Scenarios may be used to train decision makers in recognizing signs of change on the proper occasions. Scenarios are useful to introduce gradual changes in the decision-making models themselves. In sum, scenarios show the decision makers their own perception of the risk environment.
+    <br>
+    <br>
+    <h1><b>Conclusions</b><hr width="100%" color="#050400" size="5"/></h1>
+    <br>
+In this chapter, complexity in decision problems due to uncertainty or risk factor, multiple scenario definition and multiple criteria decision, were presented. Subjective assessment of probability values, scenario definition and multiple criteria decision with or without optimized solution, are problems that do not have definitive answers, requiring several steps of the decision-making process to reach favorable and consensual results. 
+    <br>
+In addition to the basic structure of the decision-making process of semistructured and tactical models of decision, we are facing new factors that encompass the complex and nonstructured nature of strategic decision problems. 
+    <br>
+Complex problems and nonstructured (known also as ill-defined) problems are often considered similar problems, but it is possible to find complexity (in the sense of NP or Non-Polynomial complexity defined in Mathematics) in welldefined problems  (small number of variables and functions), as in the case of optimization of nonlinear problems or matrix inversion problems.
+    <br>
+Summarizing the results of a decision based on the models and examples shown in this chapter, one can say that the selection of the best or top best alternatives of decision is a difficult task. We may think about certain personal considerations and organizational biases a decision analysis should overcome, and the concept of “good” rather than “best” decision must be considered.
+    <br>
+The choice of an adequate decision-making methodology will be one of personal or organizational preference, and we can not decide a priori which particular methodology is appropriate. Rather, we may analyze a problem according to different points of view to see what the outcomes for different ways of analysis are, and in this way determine which course of action is most justifiable.
+    <br>
+<h1><b>Questions for Reflection and Discussion </b><hr width="100%" color="#050400" size="5"/></h1>
+    <br><br>
+Considering the case in the section titled The Value of Scenarios Hidden Traps, analyze the exercises with multiple scenarios presented in this chapter and give answers to the five questions for an efficient scenario planning. For instance, what would be the best and worst scenarios or the scenario for the official future? List and comment on the “hidden traps” existing in the decision problem examples in this and in the previous chapter.
+    <br>
+    <br>
+<ol>
+<li> What is a decision problem with risk?</li>
+<li>What areutility values used for? </li>
+<li>What is the importance ofthe sensitivity analysis in a decision problem?</li>
+<li>What is adecision scenario?</li>
+<li>Explain, using an example, how a Linear Programming problem with more than one goal function is formulated and solved.</li>
+<li>Give examples of decisions problems with risk, multiple goals and multiple scenarios. Build a decision tree for each example.</li>
+<li>What is and how is calculated the joint utility value u(x1, x2) of two goals u(x1) and u (x2)? </li>
+<li>Explain each kind of utility curve: with risk aversion, risk neutral, and risk preference. Draw the utility curve graphic for u(x1,x2),using the example developed in the chapter.</li>
+<li> How to make a Sensitivity Analysis of a decision problem with multiple goals and multiple scenarios? Why is the sensitivity analysis for this kind of problem complex?</li>
+<li> What is and what is the purpose of the “What–if” question? Give examples.</li>
+</ol>
+<h1><b>Exercises</b><hr width="100%" color="#050400" size="5"/></h1>
+    <br> 
+    <br>
+<ol><li>Investment Model With Multiple Scenarios 
+    Company BYS must choose one of the following alternatives:</li></ol>
+<br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083601.png"></div>
+<br>
+<br>
+<h1><i>Scenario One</i><hr width="100%" color="#050400" size="3"/></h1>
+    <br> 
+The national market might present one of the following situations:
+    <br>
+    <b>S1:</b> There is no demand for the new product, with probability P(S1)=0.2 as shown by a market research, 
+    <br>
+    <b>S2:</b> There might be a sales average of 100.000 units of the new product with probability P(S2)=0.4, and 
+    <br>
+    <b>S3:</b> There might be a sales average of 200.000 units of the new.
+    product with probability P(S3)=0.4.
+    <br>
+The complete decision matrix, with earnings established after exhaustive risk analysis of the possible situations, expressed in millions of dollars, is the following:
+    <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083623.png"></div>
+    <br>
+<h1><i>Scenario Two</i><hr width="100%" color="#050400" size="3"/></h1>
+    <br>
+The foreign market might present the following possibilities:
+<br>
+<b>S1:</b>There may be an average sale of 150.000units of the new product (P(S1 ) = 0.6) 
+    <br>
+<b>S2:</b> There may be an average sale of 300.000 units of the new product (P(S2)-0.4)
+<br>
+The complete decision matrix, including earnings in million dollars is the following:
+    <br>
+<div class="img1" style="width=100px; height=100px; background-color=white;"><img src="Screenshot%202024-02-09%20083632.png"></div>
+    <br>
+Considering that the company cannot address both scenarios at the same time:
+    <br>
+<li type="disc">Which one is the best decision based on the best average earnings? </li>
+    <br>
+<li type="disc">Which is the best decision using the best utility average value, with neutral risk, risk preference, or risk aversion utility? </li>
+    <br>
+<h1><i>References</i><hr width="100%" color="#050400" size="5"/></h1>
+    <br>
+    Bonabeau, E. (2003). Don’t trust your gut.Harvard Business Review, 81(5), 116-223.<br> Charan, R. (2001). Conquering a culture of indecision.<i>Harvard Business Review, </i>.79(4), 75-82.<br> Choo, C. W. (1998).<i>Knowing organizations. </i>Oxford, UK: Oxford University Press. <br>Clemen, R. T., & Reilly, T. (2001).<i>Making hard decisions with decisions tools.</i> New York: Duxbury Press. <br>Cook, T.M., & Russel, R.A. (1993).<i>Introduction to management science.</i> NJ: Prentice-Hall. <br>Day, G.S., et al. (Eds.). (1997).<i>Wharton on dynamic competitive strategy.</i> New York: John Wiley & Sons.<br> Goicoechea, A., et al. (1982).<i>Multi-objective decision analysis with engineering and business applications.</i> New York: John Wiley & Sons. <br>Goodwin, P., & Wright, G. (1996).<i>Decision dnalysis for management judgment.</i> New York: John Wiley & Sons.
+    <br>
+    Gregory, G. (1980).<i>Decision analysis. New York:</i> Pitman Books. Harker, P.T. (1987). Incomplete pairwise comparison in the AHP.<i>Mathematical Modeling,</i>9(11), 837-848. <br>Keeney, R., & Raiffa, H. (1976).<i>Decisions with multiple objectives: Preferences and value trade off.</i> New York: Wiley & Sons. <br>Kinoshita, E. (1996).<i>Introduction to management science </i>(in Japanese). Tokyo, Sakurai  Publishers. <br>Konno, H. (1997).<i>Introduction to decision analysis</i> (in Japanese). Tokyo: Assakura Publishers. <br>Roy, B. (1968).<i>Classement et choix en presence de points de vue multiples (la methode ELECTRE). </i>Review Française d’Informatique et de Recherche Operationnelle, 8, 57-75. <br>Saaty, T. L. (1977). A scaling method for priorities in hierarchical structures. <i>Journal of Mathematical Psychology,</i>15, 234-281.<br> Saaty, T.L. (1980).<i>The analytic hierarchy process: Planning, priority, resource allocation.</i> New York: McGraw-Hill. <br>Saaty, T. L. (2001).<i>Decision making with dependence and feedback:</i> The <i>analytic network process</i>(2nd ed.). Pittsburgh, PA: RWS Publications. <br>Shafer, G. (1976). <i>A mathematical theory of evidence.</i> NJ: Princeton University Press. <br>Tabucanon, M. T. (1988).<i>Multiple criteria decision making in industry.</i> New York: Elsevier. <br>Terano, T., et al. (1984).<i>Fuzzy systems: Theory and its applications</i> (in Japanese). Tokyo: Ohm Publishing. <br>Warfield, J.N. (1978).<i>Societal systems: Planning, policy and complexity.</i> New York: John Wiley & Sons. <br>Warfield, J.N. (1994).<i>A science of generic design: Managing complexity through systems design</i>(2nd ed.). Iowa State University Press.
+                    <br>
+             </article>
+    </body>
+</html>
